@@ -53,6 +53,7 @@ while count < 5:
 print(f' "Значение" =  {count}')
 
 #.............
+
 a, s, p = 1, 150, 200
 while True:
     if a > 10:
@@ -61,3 +62,72 @@ while True:
     p += a
     s += p
     print(f'Переменная s = {s}')
+
+#..............
+
+c, d, = 750, 90
+while True:
+ if d > 0:
+ break
+d = d - 10
+c = c/2 + 50
+print(f'Переменная c = {c}')
+
+#...............
+s, = 1
+while True:
+    if n = 1 to 5 :
+        break
+s: = s * n
+ print(f'Переменная s = {s}')
+
+#...............
+m, n, = 12, 5
+while True:
+ if m = n:
+   if m > n:
+        break
+n: = n - 3
+m: = m - 2*n
+ print(f'Переменная m = {m}')
+ print(f'Переменная n = {n}')
+
+#................
+k, l = [] , []
+for i in range ( 1, 11) :
+    k. append ( 10 -i)
+for i in range(1,11) :
+    l.append (k[5] - k[i-1](
+print(k)
+print(l)
+
+k, l = list(range(1, 11)), list( range(1,11))
+
+for i in range(1, 11):
+    k[i - 1] = 10 - i
+for i in range(1, 11):
+    l[i - 1] = k[5] - k[i - 1]
+print(k)
+print(l)
+print(f'Количестыо отрицательных элементов массива l = {len([value for value in l if value < 0])}')
+k, l = list(range(1, 11)), list(range(1, 11))
+
+for i in range(1, 11):
+    k[i - 1] = 10 - i 
+for i in range(1, 11):
+    l[i - 1] = k[5] - k[i - 1]
+print(k)
+print(l)
+count_k = 0
+for value in k:
+    if value < 0:
+         count_k += 1
+count_l = 0
+for value in l:
+    if value < 0:
+         count_l += 1
+print(f'Количество отрицательных элементов = {count_k + count_l}')
+# list comperehensions
+count_k = len([value for value in k if value < 0 ])
+count_l = len([value for value in l if value < 0 ])
+print( f'Количестыо отрицотельных элементов = {count_k + count_l}')
